@@ -223,12 +223,13 @@
             // 
             // lbl_Display
             // 
-            this.lbl_Display.AutoSize = true;
-            this.lbl_Display.Location = new System.Drawing.Point(179, 20);
+            this.lbl_Display.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_Display.Location = new System.Drawing.Point(9, 9);
             this.lbl_Display.Name = "lbl_Display";
-            this.lbl_Display.Size = new System.Drawing.Size(13, 13);
+            this.lbl_Display.Size = new System.Drawing.Size(183, 23);
             this.lbl_Display.TabIndex = 16;
             this.lbl_Display.Text = "0";
+            this.lbl_Display.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
@@ -256,7 +257,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

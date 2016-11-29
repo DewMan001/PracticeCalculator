@@ -27,7 +27,7 @@ namespace PracticeCalculator
         private void btn_Input1_Click(object sender, EventArgs e)
         {
             string display = lbl_Display.Text;
-            int displayInt = Int32.Parse(display);
+            double displayInt = double.Parse(display);
 
             if(display == "0")
             {
