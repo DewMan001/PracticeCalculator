@@ -108,6 +108,141 @@ namespace PracticeCalculator
             }
         }
 
+        private void btn_Input5_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if(display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 5;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+            else
+            {
+                //creating new value for displayInt
+                display += "5";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_Input6_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if(display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 6;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+
+            else
+            {
+                //creating new value for displayInt
+                display += "5";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_Input7_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if (display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 7;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+            else
+            {
+                //creating new value for displayInt
+                display += "7";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_Input8_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if (display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 8;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+
+            else
+            {
+                //creating new value for displayInt
+                display += "8";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_Input9_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if (display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 9;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+
+            else
+            {
+                //creating new value for displayInt
+                display += "9";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_Input0_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if(display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 0;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+            else
+            {
+                //creating new value for displayInt
+                display += "0";
+                lbl_Display.Text = display;
+            }
+        }
+
         private void btn_ClearAll_Click(object sender, EventArgs e)
         {
             string display = lbl_Display.Text;
@@ -131,6 +266,6 @@ namespace PracticeCalculator
             lbl_Display.Text = display;
         }
 
-       
+        
     }
 }
