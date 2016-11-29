@@ -81,6 +81,7 @@
             this.btn_Input3.TabIndex = 2;
             this.btn_Input3.Text = "3";
             this.btn_Input3.UseVisualStyleBackColor = true;
+            this.btn_Input3.Click += new System.EventHandler(this.btn_Input3_Click);
             // 
             // btn_Input6
             // 
@@ -114,6 +115,7 @@
             this.btn_Input4.TabIndex = 3;
             this.btn_Input4.Text = "4";
             this.btn_Input4.UseVisualStyleBackColor = true;
+            this.btn_Input4.Click += new System.EventHandler(this.btn_Input4_Click);
             // 
             // btn_Division
             // 
@@ -212,6 +214,7 @@
             this.btn_Backspace.TabIndex = 14;
             this.btn_Backspace.Text = "Backspace";
             this.btn_Backspace.UseVisualStyleBackColor = true;
+            this.btn_Backspace.Click += new System.EventHandler(this.btn_Backspace_Click);
             // 
             // btn_ClearAll
             // 
