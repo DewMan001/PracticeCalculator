@@ -65,7 +65,11 @@ namespace PracticeCalculator
 
         private void btn_ClearAll_Click(object sender, EventArgs e)
         {
+            string display = lbl_Display.Text;
 
+            display = "0";
+
+            lbl_Display.Text = display;
         }
 
         private void btn_Subtraction_Click(object sender, EventArgs e)
