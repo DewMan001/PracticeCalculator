@@ -19,10 +19,7 @@ namespace PracticeCalculator
 
         
 
-        private void btn_Subtraction_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btn_Input1_Click(object sender, EventArgs e)
         {
@@ -43,6 +40,37 @@ namespace PracticeCalculator
                 display += "1";
                 lbl_Display.Text = display;
             }
+        }
+
+        private void btn_Input2_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+            double displayInt = double.Parse(display);
+
+            if(display == "0")
+            {
+                //creating new value for displayInt
+                displayInt = 2;
+                //turning that new value into a readable string
+                display = displayInt.ToString();
+                //putting that string back into the display label
+                lbl_Display.Text = display;
+            }
+            else
+            {
+                display += "2";
+                lbl_Display.Text = display;
+            }
+        }
+
+        private void btn_ClearAll_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Subtraction_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

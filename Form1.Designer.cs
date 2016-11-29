@@ -69,6 +69,7 @@
             this.btn_Input2.TabIndex = 1;
             this.btn_Input2.Text = "2";
             this.btn_Input2.UseVisualStyleBackColor = true;
+            this.btn_Input2.Click += new System.EventHandler(this.btn_Input2_Click);
             // 
             // btn_Input3
             // 
@@ -220,6 +221,7 @@
             this.btn_ClearAll.TabIndex = 15;
             this.btn_ClearAll.Text = "Clear All";
             this.btn_ClearAll.UseVisualStyleBackColor = true;
+            this.btn_ClearAll.Click += new System.EventHandler(this.btn_ClearAll_Click);
             // 
             // lbl_Display
             // 
