@@ -261,11 +261,22 @@ namespace PracticeCalculator
         {
             string display = lbl_Display.Text;
 
-            display += "\b";
+            //an if statement from stackOverflow to delete characters
+            if (display.Length > 1)
+            {
+                display = display.Substring(0, display.Length - 1);
+            }
+            else
+            {
+                display = "0";
+            }
 
             lbl_Display.Text = display;
         }
 
-        
+        private void btn_Multiply_Click(object sender, EventArgs e)
+        {
+            string display = lbl_Display.Text;
+        }
     }
 }
